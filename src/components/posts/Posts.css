@@ -1,0 +1,27 @@
+.posts {
+    display:flex;
+    flex-direction:row;
+}
+
+.postsList {
+    position:absolute;
+    width:35vw;
+    height:100%;  
+    overflow-y:auto;
+     
+}
+
+.postComments {
+    position:absolute;
+    width:65vw;
+    height:100%;
+    left:35vw;
+    background:orange;
+    overflow-y:auto;
+}
+
+.postsData {
+    text-align: left;
+    padding: 10px;
+    font-size: 18px;
+}

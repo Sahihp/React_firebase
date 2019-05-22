@@ -1,0 +1,21 @@
+.home {
+	display: flex;
+	flex-direction: row;
+}
+
+.firstHome {
+	position: absolute;
+	width:30vw;
+	overflow-y: auto;
+	background: gray;
+	height: 100%;
+}
+
+.secondHome {
+	position: absolute;
+	right:0;
+	overflow-y: auto;
+	left:30vw;
+	height: 100%;
+	background: orange;
+}
