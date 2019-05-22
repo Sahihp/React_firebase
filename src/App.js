@@ -9,8 +9,6 @@ import firebase from './firebase';
 
 function App() {
 
-  window.fb = firebase;
-
   return (
     <BrowserRouter>
       <div className="App">

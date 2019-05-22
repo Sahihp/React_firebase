@@ -36,3 +36,7 @@
     border-bottom: 1px solid #d4d1d1;
     background: white;
 }
+
+.selectedItem {
+    color:blue;
+}
