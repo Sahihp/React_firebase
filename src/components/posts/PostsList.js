@@ -41,6 +41,7 @@ const PostsList = ( props ) => {
                 postListState.postsArray.map(( posts , index ) => {
                     return (
                         <div 
+                        className="postItem"
                         key={posts.id}
                         onClick={() => {
                             console.log(props.history);

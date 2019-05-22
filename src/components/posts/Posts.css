@@ -25,3 +25,14 @@
     padding: 10px;
     font-size: 18px;
 }
+
+.postItem {
+    cursor: pointer;
+    margin-bottom: 7px;
+    padding: 5px 0 10px 15px;
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom: -11px solid #0e0e0e;
+    border-bottom: 1px solid #d4d1d1;
+    background: white;
+}
