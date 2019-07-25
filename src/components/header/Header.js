@@ -7,7 +7,9 @@ const Header = ( props ) => {
 		<div className="header">
 			<Link to="/">Home</Link>&nbsp;&nbsp;
 			<Link to="/about">About</Link>&nbsp;&nbsp;
-			<Link to="/posts">Posts</Link>
+			<Link to="/posts">Posts</Link>&nbsp;&nbsp;
+			<Link to="/login">Login</Link>&nbsp;&nbsp;
+			<Link to="/signup">Signup</Link>
 		</div>	
 	);
 }
