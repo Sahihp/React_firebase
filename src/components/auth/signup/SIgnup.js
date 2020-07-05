@@ -4,7 +4,7 @@ const Signup = () => {
 
     return (
         <div>
-            Signup works....
+            Sign up here to use the application.
         </div>
 
     );
