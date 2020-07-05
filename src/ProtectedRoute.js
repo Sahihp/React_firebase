@@ -7,6 +7,7 @@ const ProtectedRoute = ({ component : Component , ...rest }) => {
         <Route 
             {...rest}  
             render = {(props) => {
+                //test changes
                 return <Component {...props} />
                 /* if ( localStorage.getItem('token') !== null ){
                     return <Component {...props} />
